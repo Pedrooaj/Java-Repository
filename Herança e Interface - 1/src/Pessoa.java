@@ -1,3 +1,4 @@
+// Utilizamos implements para realizar o contrato com a interface Actions
 public class Pessoa implements Actions {
     public String nome;
     public int idade;
@@ -18,8 +19,6 @@ public class Pessoa implements Actions {
         System.out.println(idade);
         System.out.println(cpf);
     }
-
-    
 
     public String getCpf() {
         return cpf;

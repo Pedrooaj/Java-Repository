@@ -1,8 +1,9 @@
+// Usamos extends para Aluno herdar os atributos e metodos do pai Pessoa
 public class Aluno extends Pessoa { 
     private int matricula;
-    
+
     public Aluno(String nome, int idade, String cpf, int matricula){
-        super(nome, idade, cpf);
+        super(nome, idade, cpf); // super serve para se referir ao construtor pai
         this.matricula = matricula;
     }
 
